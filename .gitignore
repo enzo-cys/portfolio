@@ -1,0 +1,15 @@
+# Node modules
+node_modules/
+# CSS compilé (on versionne src/, pas public/css/)
+public/css/output.css
+# Logs
+*.log
+npm-debug.log*
+# Environnement
+.env
+# Système
+.DS_Store
+Thumbs.db
+# IDE
+.vscode/
+.idea/
