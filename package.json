@@ -10,7 +10,20 @@
     "watch:css": "npx tailwindcss -i ./src/input.css -o ./public/css/output.css --watch",
     "build": "npm run build:css"
   },
-  "keywords": ["portfolio","node","express","tailwind"],
+  "keywords": [
+    "portfolio",
+    "node",
+    "express",
+    "tailwind"
+  ],
   "author": "Ton Nom",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "express": "^5.2.1",
+    "nodemon": "^3.1.11"
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.0.0",
+    "tailwindcss": "^4.0.0"
+  }
 }
