@@ -1,0 +1,16 @@
+{
+  "name": "enzo.cys@laplateforme.io",
+  "version": "1.0.0",
+  "description": "Portfolio professionnel présentant mes projets",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "build:css": "npx tailwindcss -i ./src/input.css -o ./public/css/output.css --minify",
+    "watch:css": "npx tailwindcss -i ./src/input.css -o ./public/css/output.css --watch",
+    "build": "npm run build:css"
+  },
+  "keywords": ["portfolio","node","express","tailwind"],
+  "author": "Ton Nom",
+  "license": "MIT"
+}
