@@ -1,5 +1,5 @@
 {
-  "name": "enzo.cys@laplateforme.io",
+  "name": "portfolio",
   "version": "1.0.0",
   "description": "Portfolio professionnel présentant mes projets",
   "main": "server.js",
@@ -16,14 +16,14 @@
     "express",
     "tailwind"
   ],
-  "author": "Ton Nom",
+  "author": "enzo.cys@laplateforme.io",
   "license": "MIT",
   "dependencies": {
     "express": "^5.2.1",
     "nodemon": "^3.1.11"
   },
   "devDependencies": {
-    "@tailwindcss/cli": "^4.0.0",
-    "tailwindcss": "^4.0.0"
+    "@tailwindcss/cli": "^4.1.7",
+    "tailwindcss": "^4.1.7"
   }
 }
